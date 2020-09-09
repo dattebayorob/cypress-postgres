@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+  "video": false,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+      "configFile": "reporter-config.json"
+  },
+  "env": {
+    "db": {
+      "username": "username",
+      "password": "password",
+      "database": "database",
+      "hostname": "localhost",
+      "port": "5432"
+    }
+  }
+}
